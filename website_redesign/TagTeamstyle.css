@@ -1,0 +1,408 @@
+body 
+{
+   margin:auto;
+   padding: 0px;
+   font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	background-color: lightgray;
+}
+
+@keyframes fadeIn 
+{
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#logo 
+{ 
+	float: left;
+	padding-left: 10px;
+	animation: fadeIn 5s;
+}
+
+.clear 
+{
+  clear: both;
+	animation: fadeIn 5s;
+}
+
+
+#nav 
+{
+    background-color: gray;
+    color: white;
+    width: 100%;
+	padding: 0px;
+	margin: auto;
+	animation: fadeIn 5s;
+}
+
+@keyframes fadeIn 
+{
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.nav 
+{
+  float: right;
+  list-style: none;    
+    text-align: left;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+    padding: 0px -10px 0px -10px; 
+  margin: 0px;
+	overflow: scroll;
+	animation: fadeIn 5s;
+}
+
+.nav > li 
+{                                                             
+    display:inline-block;
+    padding: 20px 20px 20px 20px;
+	animation: fadeIn 5s;
+}
+
+ .nav > li a 
+{                                               
+     text-decoration: none;
+     color: white;
+     font-size: 25px;
+     padding: 5px 0px 5px 0px;
+	animation: fadeIn 5s;
+ }
+
+ .nav > li > a:hover 
+{
+     color: darkred;
+	animation: fadeIn 2s;
+ }
+
+.heading
+{
+	text-align: center;
+	margin: auto;
+	font-size: 100px;
+	background-color: darkred;
+	color: whitesmoke;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	animation: fadeIn 5s;
+}
+
+@keyframes fadeIn 
+{
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.heading2
+{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 75px;
+	text-align: justify;
+	animation: fadeIn 5s;
+	padding: 10px;
+	margin: auto;
+	line-height: normal;
+}
+
+.heading2 > p
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 35px;
+	text-align: justify;
+	padding: 0px 100px 0px 10px;
+	animation: fadeIn 5s;
+}
+
+@keyframes fadeIn 
+{
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#image1
+{
+	float: right;
+	padding: 10px 0px 10px 20px;
+	margin: auto;
+	animation: fadeIn 5s;
+}
+
+.HomepageBody1 > p
+{
+	font-size: 25px;
+	text-align: center;
+	padding: 50px 100px 20px 100px;
+	animation: fadeIn 5s;
+}
+
+.HomepageBody1
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 25px;
+	background-color: darkgray;
+	animation: fadeIn 5s;
+}
+
+.column1
+{
+	text-align: center;
+  float: left;
+  width: auto;
+	padding: 20px;
+	animation: fadeIn 5s;
+	
+}
+
+.column2
+{
+	text-align: center;
+  float: left;
+  width: auto;
+	padding: 20px;
+	animation: fadeIn 7s;
+	
+}
+
+.column3
+{
+	text-align: center;
+  float: left;
+  width: auto;
+	padding: 20px;
+	animation: fadeIn 9s;
+	
+}
+
+.row
+{
+	padding: 50px 200px 50px 200px;
+	color: lightgray;
+	background-color: darkred;
+	animation: fadeIn 5s;
+}
+
+
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+	animation: fadeIn 5s;
+}
+
+.HomepageBody2 > p
+{
+	font-size: 25px;
+	text-align: center;
+	padding: 50px 100px 20px 100px;
+	animation: fadeIn 5s;
+}
+
+.footer {
+	list-style: none;
+	font-size: 35px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  background-color: #f1f1f1;
+  padding: 50px;
+  text-align: left;
+	animation: fadeIn 5s;
+	background-color: lightgray;
+}
+
+.Services1
+{
+	font-size: 50px;
+	text-align: center;
+	padding: 20px;
+	animation: fadeIn 5s;
+}
+
+.ServicesIntro
+{
+	font-size: 25px;
+	text-align: center;
+	padding: 50px;
+	animation: fadeIn 5s;
+}
+
+.Servicestable
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 27px;
+	background-color: darkgray;
+	padding: 50px;
+	animation: fadeIn 5s;
+}
+
+.Servicescolumn1 {
+ text-align: center;
+  width: auto;
+	padding: 10px 100px 100px 100px ;
+	animation: fadeIn 5s;
+}
+.Servicescolumn2 {
+  text-align: center;
+  width: auto;
+	padding: 10px 100px 100px 100px ;
+	animation: fadeIn 7s;
+}
+
+.Servicescolumn3 {
+  text-align: center;
+  width: auto;
+	padding: 10px 100px 100px 100px ;
+	animation: fadeIn 9s;
+}
+
+.Servicescolumn4 {
+  text-align: center;
+  width: auto;
+	padding: 10px 100px 100px 100px ;
+	animation: fadeIn 11s;
+}
+
+
+.Servicesrow:after {
+  content: "";
+  display: table;
+  clear: both;
+	animation: fadeIn 5s;
+}
+
+.ServicesEnd 
+{
+	background-color: darkred;
+	color: whitesmoke;
+	font-size: 25px;
+	text-align: center;
+	padding: 50px;
+	animation: fadeIn 5s;
+}
+
+
+.AboutUsIntro
+{
+	font-size: 25px;
+	text-align: center;
+	padding: 50px;
+	animation: fadeIn 5s;
+	background-color: darkred;
+	color: lightgray;
+}
+
+.MissionStatement
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 25px;
+	text-align: center;
+	padding: 50px 100px 20px 100px;
+	animation: fadeIn 5s;
+}
+
+.AboutUsBody
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 27px;
+	background-color: darkgray;
+	padding: 50px;
+	animation: fadeIn 5s;
+	list-style: none;
+	line-height: 40px;
+}
+
+#license
+{
+	font-size: 40px;
+	animation: fadeIn 7s;
+}
+
+#estimate
+{
+	font-size: 50px;
+	animation: fadeIn 9s;
+}
+
+.PopupSale
+{
+	padding: 50px;
+	align-content: center;
+	text-align: center;
+	font-size: 45px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	animation: fadeIn 5s;
+	background-color: lightgray;
+}
+
+.button
+{
+	align-items: center;
+	text-align: center;
+	font-size: 45px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	animation: fadeIn 5s;
+	background-color: darkred;
+	color: whitesmoke;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical;
+	  animation: fadeIn 5s;
+}
+
+input[type=submit] {
+  background-color: darkred;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+	animation: fadeIn 5s;
+}
+
+
+input[type=submit]:hover {
+  background-color: darkgray;
+	animation: fadeIn 5s;
+}
+
+
+.container {
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  padding: 20px;
+	animation: fadeIn 5s;
+}
+
+.Contact
+{
+	text-align: center;
+	animation: fadeIn 5s;
+	
+}
+
+.socialmedia
+{
+	text-align: center;
+	font-size: 25px;
+	background-color: darkgray;
+	padding: 20px;
+	animation: fadeIn 5s;
+}
+
+.socialmedia > li
+{
+	list-style: none;
+	display: inline-block;
+	animation: fadeIn 5s;
+}
+
+

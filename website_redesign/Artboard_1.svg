@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #231f20;
+      }
+
+      .cls-1, .cls-3 {
+        font-family: Phosphate-Inline, Phosphate;
+        font-size: 30px;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="123.63" y="31.49" width="76.2" height="23.8"/>
+  <rect class="cls-4" x=".55" y="31.49" width="123.08" height="23.8"/>
+  <text class="cls-1" transform="translate(.55 52.9)"><tspan x="0" y="0">TagTeam</tspan></text>
+  <text class="cls-3" transform="translate(123.77 52.9)"><tspan x="0" y="0">Signs</tspan></text>
+</svg>
